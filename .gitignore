@@ -1,0 +1,18 @@
+# base file
+index.php
+
+# themes other than child theme
+themes/twentysixteen/
+themes/twentyseventeen/
+themes/twentynineteen
+
+# other WP native folders
+uploads/
+upgrade/
+backup-db/
+backups/
+
+# third-party plugins
+mu-plugins/
+plugins/hello.php
+plugins/akismet/

@@ -18,3 +18,6 @@ backups/
 mu-plugins/
 plugins/hello.php
 plugins/akismet/
+
+#other custom files / folders
+themes/saul-child/misc

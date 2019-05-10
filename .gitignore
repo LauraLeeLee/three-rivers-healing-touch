@@ -19,6 +19,7 @@ backups/
 mu-plugins/
 plugins/hello.php
 plugins/akismet/
+plugins/options-for-twenty-seventeen
 
 #other custom files / folders
 themes/saul-child/misc

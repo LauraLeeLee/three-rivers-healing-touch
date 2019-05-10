@@ -1,0 +1,120 @@
+/*
+Theme Name: Twenty Seventeen Child
+description: >-
+  Twenty Seventeen Child Theme
+Author: Laura Logan
+Author URI: http://example.com
+Template: twentyseventeen
+Version: 1.0.0
+*/
+
+body {
+  background-color: #8bd0b4;
+  background-image: linear-gradient(to left bottom, #8bd0b4, #64bdb2, #3faab1, #1a95ae, #0680a7, #0084a8, #0089a9, #008da9, #1daaa6, #68c296, #b1d585, #ffe187);
+}
+
+.site-header .custom-header {
+  height: 75vh;
+}
+.site-branding-text .site-title {
+  /* font-family: 'Sail', cursive; */
+  /* font-family: 'Great Vibes', cursive; */
+  /* font-family: 'Sail', cursive; */
+  font-family: 'Charmonman', cursive;
+  letter-spacing: 0.05em;
+  font-size: 4em;
+
+}
+
+/* #masthead .custom-header .site-branding {
+   position: fixed;
+   top: 95px;
+   left: 0;
+   right: 0;
+   width: 100%;
+   z-index: 8;
+   height: 100px;
+} */
+
+/* .site-title a {
+  color: #f9f9f9 !important;
+  text-transform: none;
+} */
+
+/*===Navigation===*/
+.navigation-top {
+  background-color: #256396;
+  border: 0;
+  /* background-image: linear-gradient(to left bottom, #8bd0b4, #64bdb2, #3faab1, #1a95ae, #0680a7, #0084a8, #0089a9, #008da9, #1daaa6, #68c296, #b1d585, #ffe187); */
+  /* background-image: linear-gradient(to right, #7fc3b4, #60b3b1, #42a1ae, #2790aa, #187da4, #1583a5, #1788a6, #1c8ea7, #53aca9, #8dc6ab, #c7dfb6, #fff6ce); */
+  /*
+  position: fixed;
+  top: 25px;
+  left: 0;
+  right: 0;
+  z-index: 7;
+  height: 50px; */
+}
+
+.navigation-top .wrap {
+  padding: 0;
+  /* margin: 0; */
+}
+
+#top-menu li:first-child a {
+  font-family: 'Charmonman', cursive;
+  font-size: 3em;
+  color: #f9f9f9 !important;
+  padding: 20px 0 20px 40px;
+  margin-left: -70px;
+  /* float: left;
+  clear: right; */
+}
+
+#top-menu li:nth-child(2) {
+  margin-left: 80px;
+}
+
+#top-menu li:nth-child(5) {
+  margin-right: 0;
+}
+
+#top-menu li:not(:first-child) a {
+color: #f9f9f9;
+font-size: 1.25em;
+}
+
+.menu li a {
+  color: #f9f9f9;
+}
+
+.panel-content {
+  background-color: #f9f9f9;
+  /* background-image: linear-gradient(to left bottom, #8bd0b4, #64bdb2, #3faab1, #1a95ae, #0680a7, #0084a8, #0089a9, #008da9, #1daaa6, #68c296, #b1d585, #ffe187); */
+  background-image: linear-gradient(to right, #7fc3b4, #60b3b1, #42a1ae, #2790aa, #187da4, #1583a5, #1788a6, #1c8ea7, #53aca9, #8dc6ab, #c7dfb6, #fff6ce);
+}
+
+
+.site-footer {
+  margin-top: 0;
+  border: 0;
+  background-color: #256396;
+}
+
+.widget-area .widget-column.footer-widget-2 {
+  width: 40%;
+}
+
+.social-navigation {
+  margin: 0 auto 0;
+  float: none;
+}
+
+
+/*===Media Queries===  */
+
+@media screen and (max-width: 767px) {
+  #top-menu li:first-child {
+    display: none;
+  }
+}

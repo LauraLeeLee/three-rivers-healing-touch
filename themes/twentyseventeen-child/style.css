@@ -29,6 +29,20 @@ body {
   font-size: 4em;
 }
 
+/* hide header image and site branding on all pages but home page */
+.site-branding, .custom-header-media {
+  display: none;
+}
+
+.home .site-branding, .home .custom-header-media {
+  display: inherit;
+}
+
+.site-header .custom-header {
+  height: 0;
+}
+
+
 /* #masthead .custom-header .site-branding {
    position: fixed;
    top: 95px;
@@ -160,21 +174,26 @@ font-size: 1.25em;
   .menu-top-menu-container .menu {
     background-color: #8BD0B4;
     text-align: center;
+  }
 
+  .main-navigation li:first-child {
+    display: none;
   }
 
   .main-navigation li:nth-child(2) {
     margin-left: 0;
   }
 }
+/*
+@media screen and (min-width: 768px) {
+    .main-navigation li:first-child {
+      display: block;
+    }
+} */
 
 @media screen and (min-width: 768px) and (max-width: 933px) {
   .menu-top-menu-container .menu {
     text-align: center;
-  }
-
-  .main-navigation li:first-child {
-    display: block;
   }
 }
 
